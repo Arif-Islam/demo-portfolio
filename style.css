@@ -7,7 +7,7 @@ h1{
 }
 .introduction{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 95px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@ h1{
 .half-width img{
     width: 80%;
 }
-.half-width p{
+.first-para{
     width: 95%;
     text-align: justify;
 }
@@ -34,4 +34,28 @@ h1{
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+}
+.dream{
+    display: flex;
+    margin-bottom: 95px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 30px;
+}
+.dl-resume{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);  
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.dream-para{
+    width: 80%;
+    text-align: justify;
 }
